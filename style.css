@@ -30,23 +30,24 @@ body {
     background-color: var(--clr-secondary-veryLightGray);
 }
 
-header {
+section {
     text-align: center;
 }
 
 h1 {
-    font-weight: var(--fw-600);
-    font-size: 40px;
-    color: var(--clr-secondary-veryDarkBlue);
-}
-
-h2 {
     font-weight: var(--fw-200);
     font-size: 40px;
     color: var(--clr-secondary-veryDarkBlue);
 }
 
-header p {
+span {
+    display: block;
+    font-weight: var(--fw-600);
+    font-size: 40px;
+    color: var(--clr-secondary-veryDarkBlue);
+}
+
+section p {
     font-weight: ver(--fw-200);
     font-size: 15px;
     color: var(--clr-secondary-grayishBlue);
@@ -140,11 +141,11 @@ a {
         grid-template-columns: 1fr;
     }
 
-    h1 {
+    span {
         font-size: 25px;
     }
 
-    h2 {
+    h1 {
         font-size: 25px;
     }
 
